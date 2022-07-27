@@ -8,17 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		C3413C70285753FC00D9DF7B /* TarotAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3413C6F285753FC00D9DF7B /* TarotAppSwiftUIApp.swift */; };
-		C3413C72285753FC00D9DF7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3413C71285753FC00D9DF7B /* ContentView.swift */; };
+		C3413C72285753FC00D9DF7B /* ListOfCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3413C71285753FC00D9DF7B /* ListOfCardsView.swift */; };
 		C3413C74285753FD00D9DF7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3413C73285753FD00D9DF7B /* Assets.xcassets */; };
 		C3413C77285753FD00D9DF7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3413C76285753FD00D9DF7B /* Preview Assets.xcassets */; };
+		C3413C7E285754CD00D9DF7B /* TarotCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3413C7D285754CD00D9DF7B /* TarotCard.swift */; };
+		C3413C802857BF3400D9DF7B /* TarotCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3413C7F2857BF3400D9DF7B /* TarotCardView.swift */; };
+		C3413C8228591A6400D9DF7B /* TarotGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3413C8128591A6400D9DF7B /* TarotGrid.swift */; };
+		C3413C8528591B7B00D9DF7B /* DetailTarotCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3413C8428591B7B00D9DF7B /* DetailTarotCard.swift */; };
+		C3413C8B285932EC00D9DF7B /* ListOfAspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3413C8A285932EC00D9DF7B /* ListOfAspects.swift */; };
+		C371C0E1286CE80400AFAAD6 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C371C0E0286CE80400AFAAD6 /* PickerView.swift */; };
+		C371C0E3286CE94D00AFAAD6 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C371C0E2286CE94D00AFAAD6 /* Header.swift */; };
+		C371C0E7286CEB4C00AFAAD6 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C371C0E6286CEB4C00AFAAD6 /* ListView.swift */; };
+		C371C0E928721F9F00AFAAD6 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C371C0E828721F9F00AFAAD6 /* StartView.swift */; };
+		C371C0EC287222BD00AFAAD6 /* SpreadOfThreeCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = C371C0EB287222BD00AFAAD6 /* SpreadOfThreeCards.swift */; };
+		C3CBFF88288D8B3A0085272D /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFF87288D8B3A0085272D /* PageView.swift */; };
+		C3CBFF8A288D8BF00085272D /* PageOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFF89288D8BF00085272D /* PageOneView.swift */; };
+		C3CBFF8C288D8F810085272D /* PageTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFF8B288D8F810085272D /* PageTwoView.swift */; };
+		C3CBFF8E288D9C9E0085272D /* PageThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFF8D288D9C9E0085272D /* PageThreeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C3413C6C285753FC00D9DF7B /* TarotAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TarotAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3413C6F285753FC00D9DF7B /* TarotAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotAppSwiftUIApp.swift; sourceTree = "<group>"; };
-		C3413C71285753FC00D9DF7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C3413C71285753FC00D9DF7B /* ListOfCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCardsView.swift; sourceTree = "<group>"; };
 		C3413C73285753FD00D9DF7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3413C76285753FD00D9DF7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C3413C7D285754CD00D9DF7B /* TarotCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotCard.swift; sourceTree = "<group>"; };
+		C3413C7F2857BF3400D9DF7B /* TarotCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotCardView.swift; sourceTree = "<group>"; };
+		C3413C8128591A6400D9DF7B /* TarotGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotGrid.swift; sourceTree = "<group>"; };
+		C3413C8428591B7B00D9DF7B /* DetailTarotCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTarotCard.swift; sourceTree = "<group>"; };
+		C3413C8A285932EC00D9DF7B /* ListOfAspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfAspects.swift; sourceTree = "<group>"; };
+		C371C0E0286CE80400AFAAD6 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		C371C0E2286CE94D00AFAAD6 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		C371C0E6286CEB4C00AFAAD6 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		C371C0E828721F9F00AFAAD6 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		C371C0EB287222BD00AFAAD6 /* SpreadOfThreeCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadOfThreeCards.swift; sourceTree = "<group>"; };
+		C3CBFF87288D8B3A0085272D /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		C3CBFF89288D8BF00085272D /* PageOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOneView.swift; sourceTree = "<group>"; };
+		C3CBFF8B288D8F810085272D /* PageTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTwoView.swift; sourceTree = "<group>"; };
+		C3CBFF8D288D9C9E0085272D /* PageThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageThreeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +80,11 @@
 			isa = PBXGroup;
 			children = (
 				C3413C6F285753FC00D9DF7B /* TarotAppSwiftUIApp.swift */,
-				C3413C71285753FC00D9DF7B /* ContentView.swift */,
+				C371C0E828721F9F00AFAAD6 /* StartView.swift */,
+				C371C0EB287222BD00AFAAD6 /* SpreadOfThreeCards.swift */,
+				C3CBFF8F288DC8EB0085272D /* PageView */,
+				C371C0EA287221B200AFAAD6 /* ListOfCards */,
+				C3413C8328591B5700D9DF7B /* Model */,
 				C3413C73285753FD00D9DF7B /* Assets.xcassets */,
 				C3413C75285753FD00D9DF7B /* Preview Content */,
 			);
@@ -65,6 +97,56 @@
 				C3413C76285753FD00D9DF7B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C3413C8328591B5700D9DF7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3413C7D285754CD00D9DF7B /* TarotCard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C371C0E4286CEAED00AFAAD6 /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				C3413C7F2857BF3400D9DF7B /* TarotCardView.swift */,
+				C3413C8128591A6400D9DF7B /* TarotGrid.swift */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
+		C371C0E5286CEAFD00AFAAD6 /* CardDetails */ = {
+			isa = PBXGroup;
+			children = (
+				C3413C8428591B7B00D9DF7B /* DetailTarotCard.swift */,
+				C3413C8A285932EC00D9DF7B /* ListOfAspects.swift */,
+			);
+			path = CardDetails;
+			sourceTree = "<group>";
+		};
+		C371C0EA287221B200AFAAD6 /* ListOfCards */ = {
+			isa = PBXGroup;
+			children = (
+				C3413C71285753FC00D9DF7B /* ListOfCardsView.swift */,
+				C371C0E6286CEB4C00AFAAD6 /* ListView.swift */,
+				C371C0E0286CE80400AFAAD6 /* PickerView.swift */,
+				C371C0E2286CE94D00AFAAD6 /* Header.swift */,
+				C371C0E5286CEAFD00AFAAD6 /* CardDetails */,
+				C371C0E4286CEAED00AFAAD6 /* Grid */,
+			);
+			path = ListOfCards;
+			sourceTree = "<group>";
+		};
+		C3CBFF8F288DC8EB0085272D /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				C3CBFF87288D8B3A0085272D /* PageView.swift */,
+				C3CBFF89288D8BF00085272D /* PageOneView.swift */,
+				C3CBFF8B288D8F810085272D /* PageTwoView.swift */,
+				C3CBFF8D288D9C9E0085272D /* PageThreeView.swift */,
+			);
+			path = PageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +219,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3413C72285753FC00D9DF7B /* ContentView.swift in Sources */,
+				C3413C72285753FC00D9DF7B /* ListOfCardsView.swift in Sources */,
+				C371C0E928721F9F00AFAAD6 /* StartView.swift in Sources */,
+				C3413C802857BF3400D9DF7B /* TarotCardView.swift in Sources */,
+				C371C0E7286CEB4C00AFAAD6 /* ListView.swift in Sources */,
+				C3CBFF88288D8B3A0085272D /* PageView.swift in Sources */,
+				C3413C8B285932EC00D9DF7B /* ListOfAspects.swift in Sources */,
 				C3413C70285753FC00D9DF7B /* TarotAppSwiftUIApp.swift in Sources */,
+				C371C0E1286CE80400AFAAD6 /* PickerView.swift in Sources */,
+				C3413C7E285754CD00D9DF7B /* TarotCard.swift in Sources */,
+				C3413C8228591A6400D9DF7B /* TarotGrid.swift in Sources */,
+				C3CBFF8A288D8BF00085272D /* PageOneView.swift in Sources */,
+				C371C0E3286CE94D00AFAAD6 /* Header.swift in Sources */,
+				C3413C8528591B7B00D9DF7B /* DetailTarotCard.swift in Sources */,
+				C3CBFF8C288D8F810085272D /* PageTwoView.swift in Sources */,
+				C3CBFF8E288D9C9E0085272D /* PageThreeView.swift in Sources */,
+				C371C0EC287222BD00AFAAD6 /* SpreadOfThreeCards.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +377,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ru-korshina.TarotAppSwiftUI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TarotAppSwiftUI;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,7 +406,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ru-korshina.TarotAppSwiftUI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TarotAppSwiftUI;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
