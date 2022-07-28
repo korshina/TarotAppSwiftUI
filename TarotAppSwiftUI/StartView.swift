@@ -15,7 +15,7 @@ struct StartView: View {
                 .tabItem {
                     Label("Список карт", systemImage: "list.bullet")
                 }
-            PageView()
+            SpreadOfThreeCards(cards: TarotCard.threeRundomCards())
                 .tabItem {
                     Label("Совет", systemImage: "rectangle.portrait.on.rectangle.portrait")
                 }

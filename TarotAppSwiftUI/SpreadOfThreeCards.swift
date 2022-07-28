@@ -9,7 +9,6 @@ import SwiftUI
 
 struct SpreadOfThreeCards: View {
     @State private var cardsIsOpen = false
-    @State private var pickerIsOpen = false
     @State private var numberOfDeck = 1
     
     @State private var frontDegreeFirst = -90.0
@@ -31,44 +30,40 @@ struct SpreadOfThreeCards: View {
     let cardWidth = (UIScreen.main.bounds.width - 30) / 3
     
     var body: some View {
-        VStack(spacing: 20) {
-            
-            Button {
-                withAnimation {
-                    pickerIsOpen.toggle()
-                }
-            } label: {
-                ZStack {
-                    RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 170, height: 30)
-                        .foregroundColor(.blue)
-                    Text("Выберите колоду")
-                        .font(.body)
-                        .foregroundColor(.white)
-                }
+        NavigationView {
+            VStack(spacing: 20) {
                 
+                HStack(spacing: 5) {
+                    FlippingCard(numberOfDeck: $numberOfDeck, card: cards[0], cardWidth: cardWidth, frontDegree: frontDegreeFirst, backDegree: backDegreeFirst)
+                        .onTapGesture {
+                            flipCard(number: 1, isFlipped: isFlippedFirst)
+                        }
+                    FlippingCard(numberOfDeck: $numberOfDeck, card: cards[1], cardWidth: cardWidth, frontDegree: frontDegreeSecond, backDegree: backDegreeSecond)
+                        .onTapGesture {
+                            flipCard(number: 2, isFlipped: isFlippedSecond)
+                        }
+                    FlippingCard(numberOfDeck: $numberOfDeck, card: cards[2], cardWidth: cardWidth, frontDegree: frontDegreeThird, backDegree: backDegreeThird)
+                        .onTapGesture {
+                            flipCard(number: 3, isFlipped: isFlippedThird)
+                        }
+                }
+                Spacer()
             }
+            .navigationTitle("Расклад \"Совет\"")
             
-            if pickerIsOpen {
-                PickerWheel(selection: $numberOfDeck)
+            // MARK: Navigation Bar Item
+            .toolbar() {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Menu("Изменить колоду") {
+                        ChooseDeckButton(text: "Таро Висконти-Сфорца") { numberOfDeck = 0 }
+                        ChooseDeckButton(text: "Таро Сола-Буска") { numberOfDeck = 1 }
+                        ChooseDeckButton(text: "Марсельское таро") { numberOfDeck = 2 }
+                        ChooseDeckButton(text: "Таро Райдера-Уэйта") { numberOfDeck = 3 }
+                    }
+                }
             }
-            HStack(spacing: 5) {
-                FlippingCard(numberOfDeck: $numberOfDeck, card: cards[0], cardWidth: cardWidth, frontDegree: frontDegreeFirst, backDegree: backDegreeFirst)
-                    .onTapGesture {
-                        flipCard(number: 1, isFlipped: isFlippedFirst)
-                    }
-                FlippingCard(numberOfDeck: $numberOfDeck, card: cards[1], cardWidth: cardWidth, frontDegree: frontDegreeSecond, backDegree: backDegreeSecond)
-                    .onTapGesture {
-                        flipCard(number: 2, isFlipped: isFlippedSecond)
-                    }
-                FlippingCard(numberOfDeck: $numberOfDeck, card: cards[2], cardWidth: cardWidth, frontDegree: frontDegreeThird, backDegree: backDegreeThird)
-                    .onTapGesture {
-                        flipCard(number: 3, isFlipped: isFlippedThird)
-                    }
-            }
-            Spacer()
         }
-        .padding()
+        
         
     }
     
@@ -132,21 +127,17 @@ struct FlippingCard: View {
     }
 }
 
-struct PickerWheel: View {
-    @Binding var selection: Int
-    
+struct ChooseDeckButton: View {
+    let text: String
+    let completion: () -> Void
     var body: some View {
-        Picker("Выбери колоду", selection: $selection) {
-            Text("Таро Висконсти-Сфорца").tag(0)
-            Text("Таро Сола-Буска").tag(1)
-            Text("Марсельское таро").tag(2)
-            Text("Таро Райдера-Уэйта").tag(3)
+        Button {
+            completion()
+        } label: {
+            Text(text)
         }
-        .pickerStyle(.inline)
     }
 }
-
-
 
 struct SpreadOfCards_Previews: PreviewProvider {
     static var previews: some View {
