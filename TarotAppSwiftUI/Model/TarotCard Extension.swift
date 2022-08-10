@@ -4504,9 +4504,9 @@ III. Нарушение гармонии в распределении сред�
         // MARK: Короли
         // Король жезлов
         TarotCard(
-            id: "swki",
+            id: "waki",
             name: "Король жезлов",
-            imageName: ["0_swki", "1_swki", "2_swki", "3_swki"],
+            imageName: ["0_waki", "1_waki", "2_waki", "3_waki"],
             isReversed: false,
             isMajor: false,
             suit: .wands,
