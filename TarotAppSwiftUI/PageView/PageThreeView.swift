@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct PageThreeView: View {
-    @Binding var spreadIsShown: Bool
     var body: some View {
         VStack(alignment: .leading, spacing: 30) {
             HStack(spacing: 30) {
@@ -21,16 +20,9 @@ struct PageThreeView: View {
             Group {
                 Text("Позиция 1 - проблема, сложная ситуация, задача, которую надо решить.")
                 Text("Позиция 2 - совет, что делать, как себя вести, что поможет решить задачу.")
-                Text("К чему придешь, если следовать рекомендации 2.")
+                Text("Позиция 3 - к чему придешь, если следовать рекомендации 2.")
             }
             .font(.title2)
-            HStack {
-                Spacer()
-                Button("Начать") {
-                    spreadIsShown.toggle()
-                }
-                Spacer()
-            }
         }
         .padding()
     }
@@ -38,6 +30,6 @@ struct PageThreeView: View {
 
 struct PageThreeView_Previews: PreviewProvider {
     static var previews: some View {
-        PageThreeView(spreadIsShown: .constant(false))
+        PageThreeView()
     }
 }

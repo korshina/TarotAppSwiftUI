@@ -32,17 +32,16 @@ enum Suit: String {
 }
 
 enum Aspect: String, CaseIterable {
-    
     case general = "Общее значение"
+    case character = "Характеристика человека"
+    case specialRoles = "Типы людей и особые роли"
     case events = "События"
     case business = "Бизнес, работа"
+    case occupation = "Род занятий"
     case relations = "Отношения"
     case psyho = "Психологическая характеристика"
     case advice = "Совет"
     case warning = "Предостережение"
     case scene = "Место действия, события, ситуации"
-    case character = "Характеристика человека"
-    case specialRoles = "Типы людей и особые роли"
-    case occupation = "Род занятий"
 }
 

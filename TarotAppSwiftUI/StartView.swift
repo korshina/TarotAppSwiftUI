@@ -15,13 +15,14 @@ struct StartView: View {
                 .tabItem {
                     Label("Список карт", systemImage: "list.bullet")
                 }
-            SpreadOfThreeCards(cards: TarotCard.threeRundomCards())
+            SpreadOfThreeCards()
                 .tabItem {
                     Label("Совет", systemImage: "rectangle.portrait.on.rectangle.portrait")
                 }
         }
     }
 }
+
 
 struct StartView_Previews: PreviewProvider {
     static var previews: some View {

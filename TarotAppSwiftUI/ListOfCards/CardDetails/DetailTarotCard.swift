@@ -31,6 +31,6 @@ struct DetailTarotCard: View {
 
 struct DetailTarotCard_Previews: PreviewProvider {
     static var previews: some View {
-        DetailTarotCard(numberOfDeck: .constant(1), card: TarotCard.tarotCards[0])
+        DetailTarotCard(numberOfDeck: .constant(1), card: TarotCard.tarotCards[70])
     }
 }

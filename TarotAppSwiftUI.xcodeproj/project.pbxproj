@@ -83,7 +83,7 @@
 			children = (
 				C3413C6F285753FC00D9DF7B /* TarotAppSwiftUIApp.swift */,
 				C371C0E828721F9F00AFAAD6 /* StartView.swift */,
-				C371C0EB287222BD00AFAAD6 /* SpreadOfThreeCards.swift */,
+				C3830FA528A3E1070006A182 /* Spread */,
 				C3CBFF8F288DC8EB0085272D /* PageView */,
 				C371C0EA287221B200AFAAD6 /* ListOfCards */,
 				C3413C8328591B5700D9DF7B /* Model */,
@@ -139,6 +139,14 @@
 				C371C0E4286CEAED00AFAAD6 /* Grid */,
 			);
 			path = ListOfCards;
+			sourceTree = "<group>";
+		};
+		C3830FA528A3E1070006A182 /* Spread */ = {
+			isa = PBXGroup;
+			children = (
+				C371C0EB287222BD00AFAAD6 /* SpreadOfThreeCards.swift */,
+			);
+			path = Spread;
 			sourceTree = "<group>";
 		};
 		C3CBFF8F288DC8EB0085272D /* PageView */ = {
