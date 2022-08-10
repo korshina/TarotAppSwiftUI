@@ -25,6 +25,7 @@
 		C3CBFF8A288D8BF00085272D /* PageOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFF89288D8BF00085272D /* PageOneView.swift */; };
 		C3CBFF8C288D8F810085272D /* PageTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFF8B288D8F810085272D /* PageTwoView.swift */; };
 		C3CBFF8E288D9C9E0085272D /* PageThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFF8D288D9C9E0085272D /* PageThreeView.swift */; };
+		C3F1487128A2C7000096E51F /* TarotCard Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F1487028A2C7000096E51F /* TarotCard Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		C3CBFF89288D8BF00085272D /* PageOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOneView.swift; sourceTree = "<group>"; };
 		C3CBFF8B288D8F810085272D /* PageTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTwoView.swift; sourceTree = "<group>"; };
 		C3CBFF8D288D9C9E0085272D /* PageThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageThreeView.swift; sourceTree = "<group>"; };
+		C3F1487028A2C7000096E51F /* TarotCard Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TarotCard Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				C3413C7D285754CD00D9DF7B /* TarotCard.swift */,
+				C3F1487028A2C7000096E51F /* TarotCard Extension.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				C3413C8228591A6400D9DF7B /* TarotGrid.swift in Sources */,
 				C3CBFF8A288D8BF00085272D /* PageOneView.swift in Sources */,
 				C371C0E3286CE94D00AFAAD6 /* Header.swift in Sources */,
+				C3F1487128A2C7000096E51F /* TarotCard Extension.swift in Sources */,
 				C3413C8528591B7B00D9DF7B /* DetailTarotCard.swift in Sources */,
 				C3CBFF8C288D8F810085272D /* PageTwoView.swift in Sources */,
 				C3CBFF8E288D9C9E0085272D /* PageThreeView.swift in Sources */,

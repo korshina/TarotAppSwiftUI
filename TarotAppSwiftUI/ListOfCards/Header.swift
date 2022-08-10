@@ -14,11 +14,7 @@ struct Header: View {
     
     var body: some View {
         HStack {
-            Button {
-                if numberOfCardDeck != 0 {
-                    numberOfCardDeck -= 1
-                }
-            } label: {
+            Button (action: goToPreviousDeck) {
                 Image(systemName: "arrow.backward.circle.fill")
                     .foregroundColor(colors[numberOfCardDeck])
             }
@@ -30,19 +26,26 @@ struct Header: View {
             
             Spacer()
             
-            Button {
-                if numberOfCardDeck != 3 {
-                    numberOfCardDeck += 1
-                }
-            } label: {
+            Button(action: goToNextDeck) {
                 Image(systemName: "arrow.forward.circle.fill")
                     .foregroundColor(colors[numberOfCardDeck])
             }
         }
         .padding()
         .frame(width: UIScreen.main.bounds.width, height: 50)
-//        .background(Color.brown)
         
+    }
+    
+    func goToPreviousDeck() {
+        if numberOfCardDeck != 0 {
+            numberOfCardDeck -= 1
+        }
+    }
+    
+    func goToNextDeck() {
+        if numberOfCardDeck != 3 {
+            numberOfCardDeck += 1
+        }
     }
 }
 

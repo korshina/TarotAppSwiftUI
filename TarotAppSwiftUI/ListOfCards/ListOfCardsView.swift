@@ -31,8 +31,7 @@ struct ListOfCardsView: View {
             }
             .searchable(
                 text: $searchText,
-                placement: .navigationBarDrawer,
-                prompt: "Введите название карты")
+                prompt: "Для поиска введите название карты")
                 .navigationTitle("Карты Таро")
                 
         }
