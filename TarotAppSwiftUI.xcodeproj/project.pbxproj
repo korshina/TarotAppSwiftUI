@@ -25,6 +25,7 @@
 		C3CBFF8A288D8BF00085272D /* PageOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFF89288D8BF00085272D /* PageOneView.swift */; };
 		C3CBFF8C288D8F810085272D /* PageTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFF8B288D8F810085272D /* PageTwoView.swift */; };
 		C3CBFF8E288D9C9E0085272D /* PageThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CBFF8D288D9C9E0085272D /* PageThreeView.swift */; };
+		C3EBD08A28A4DBB500DE4108 /* Localizable-ru.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3EBD08C28A4DBB500DE4108 /* Localizable-ru.strings */; };
 		C3F1487128A2C7000096E51F /* TarotCard Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F1487028A2C7000096E51F /* TarotCard Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		C3CBFF89288D8BF00085272D /* PageOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOneView.swift; sourceTree = "<group>"; };
 		C3CBFF8B288D8F810085272D /* PageTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTwoView.swift; sourceTree = "<group>"; };
 		C3CBFF8D288D9C9E0085272D /* PageThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageThreeView.swift; sourceTree = "<group>"; };
+		C3EBD08B28A4DBB500DE4108 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = "ru.lproj/Localizable-ru.strings"; sourceTree = "<group>"; };
 		C3F1487028A2C7000096E51F /* TarotCard Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TarotCard Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 		C3413C6E285753FC00D9DF7B /* TarotAppSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				C3EBD08C28A4DBB500DE4108 /* Localizable-ru.strings */,
 				C3413C6F285753FC00D9DF7B /* TarotAppSwiftUIApp.swift */,
 				C371C0E828721F9F00AFAAD6 /* StartView.swift */,
 				C3830FA528A3E1070006A182 /* Spread */,
@@ -202,6 +205,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = C3413C63285753FC00D9DF7B;
 			productRefGroup = C3413C6D285753FC00D9DF7B /* Products */;
@@ -220,6 +224,7 @@
 			files = (
 				C3413C77285753FD00D9DF7B /* Preview Assets.xcassets in Resources */,
 				C3413C74285753FD00D9DF7B /* Assets.xcassets in Resources */,
+				C3EBD08A28A4DBB500DE4108 /* Localizable-ru.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +256,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3EBD08C28A4DBB500DE4108 /* Localizable-ru.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3EBD08B28A4DBB500DE4108 /* ru */,
+			);
+			name = "Localizable-ru.strings";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C3413C78285753FD00D9DF7B /* Debug */ = {
@@ -381,8 +397,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -392,7 +409,7 @@
 				PRODUCT_NAME = TarotAppSwiftUI;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -410,8 +427,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -421,7 +439,7 @@
 				PRODUCT_NAME = TarotAppSwiftUI;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

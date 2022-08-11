@@ -1,0 +1,8 @@
+ 
+//  Localizable-ru.strings
+//  TarotAppSwiftUI
+//
+//  Created by Anastasiia Korshina on 11.08.2022.
+  
+"cancel" = "Отменить";
+"back" = "Назад";
